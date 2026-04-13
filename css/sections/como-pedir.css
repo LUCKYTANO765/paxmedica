@@ -1,0 +1,21 @@
+/* ============================
+   COMO PEDIR SECTION
+============================ */
+#como-pedir { background: var(--off-white); }
+.pedir-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+.pedir-cta { margin-top: 48px; }
+.connector-arrow {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-light);
+  font-size: 1.5rem;
+  align-self: center;
+  padding-top: 20px;
+}
+@media (min-width: 768px) { .connector-arrow { display: flex; } }

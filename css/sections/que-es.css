@@ -1,0 +1,37 @@
+/* ============================
+   QUE ES SECTION
+============================ */
+#que-es { background: var(--white); }
+.que-es-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .que-es-grid { grid-template-columns: 1fr 1fr; }
+}
+.que-es-img {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.feature-list { margin-top: 24px; }
+.feature-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+.feature-icon {
+  width: 40px; height: 40px;
+  background: var(--blue-pale);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.feature-icon svg { width: 20px; height: 20px; }
+.feature-text strong { display: block; color: var(--blue-dark); font-weight: 700; margin-bottom: 2px; }
+.feature-text p { font-size: 0.9rem; color: var(--text-muted); }

@@ -1,0 +1,30 @@
+{
+  "name": "bombas-de-dolor-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para Bombas de Dolor Bolivia — respuestas automáticas con IA",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "bolivia",
+    "pain-pump",
+    "twilio"
+  ],
+  "author": "Bombas de Dolor Bolivia",
+  "license": "UNLICENSED"
+}

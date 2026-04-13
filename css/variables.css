@@ -1,0 +1,40 @@
+/* ============================
+   CSS VARIABLES
+============================ */
+:root {
+  --blue-dark: #1A3D6B;
+  --blue-mid: #2E6DA4;
+  --blue-light: #5B9BD5;
+  --blue-pale: #EAF3FB;
+  --gold: #C9A84C;
+  --gold-light: #E8C96D;
+  --white: #FFFFFF;
+  --off-white: #F8FAFE;
+  --text-main: #1A2A3A;
+  --text-muted: #5A6A7A;
+  --text-light: #8A9AAA;
+  --border: #D8E8F4;
+  --shadow-sm: 0 2px 8px rgba(26,61,107,0.08);
+  --shadow-md: 0 6px 24px rgba(26,61,107,0.12);
+  --shadow-lg: 0 12px 48px rgba(26,61,107,0.16);
+  --radius: 12px;
+  --radius-lg: 20px;
+  --transition: 0.3s ease;
+}
+
+/* ============================
+   RESET & BASE
+============================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #FFFFFF;
+  color: #1A2A3A;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+ul { list-style: none; }

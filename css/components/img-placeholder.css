@@ -1,0 +1,19 @@
+/* ============================
+   IMAGE PLACEHOLDERS
+============================ */
+.img-placeholder {
+  background: linear-gradient(135deg, var(--blue-pale) 0%, #D6EAF8 100%);
+  border: 2px dashed var(--blue-light);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--blue-mid);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 24px;
+}
+.img-placeholder span { font-size: 1rem; }

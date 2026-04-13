@@ -1,0 +1,15 @@
+/* ============================
+   ANIMATIONS / KEYFRAMES
+============================ */
+
+/* Scroll indicator bounce */
+@keyframes bounce-down {
+  0%, 100% { transform: translateY(0); opacity: 0.5; }
+  50%       { transform: translateY(6px); opacity: 1; }
+}
+
+/* Floating WhatsApp button pulse */
+@keyframes wa-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37,211,102,0.55); }
+  50%        { box-shadow: 0 0 0 14px rgba(37,211,102,0); }
+}

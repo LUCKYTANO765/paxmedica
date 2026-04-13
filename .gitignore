@@ -1,0 +1,16 @@
+# Herramientas de desarrollo local (no van al repo)
+.claude/
+caveman/
+.antigravityrules
+
+# Dependencias
+node_modules/
+bot/node_modules/
+
+# Variables de entorno con claves privadas
+.env
+bot/.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

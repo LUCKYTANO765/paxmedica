@@ -1,0 +1,10 @@
+/* ============================
+   BENEFICIOS SECTION
+============================ */
+#beneficios { background: var(--off-white); }
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
