@@ -67,29 +67,41 @@
 }
 .injection-section-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
-  gap: 48px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 40px;
   align-items: center;
-  max-width: 840px;
+  max-width: 920px;
   margin: 0 auto;
 }
-.injection-section-description { color: var(--text-muted); max-width: 420px; font-size: .98rem; line-height: 1.7; }
-.injection-section-figure { width: 168px; max-width: 100%; margin: 0 auto; }
-.injection-section-figure img { width: 100%; height: auto; }
+.injection-section-description { color: var(--text-muted); max-width: 480px; font-size: .98rem; line-height: 1.7; }
+.injection-section-figure {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 36px rgba(0, 35, 75, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: #ffffff;
+}
+.injection-section-figure img { width: 100%; height: auto; display: block; }
 @media (max-width: 900px) {
   #peso { padding: 48px 0; }
   #peso .peso-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
   .peso-media-column { width: 100%; max-width: 620px; margin: 0 auto; }
+  .injection-section-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; text-align: center; }
+  .injection-section-figure { max-width: 400px; }
+  .injection-section .divider { margin: 0 auto 20px; }
+  .injection-section-description { margin: 0 auto; }
 }
 @media (max-width: 480px) {
   .peso-hover-hint { font-size: .62rem; }
 }
 @media (max-width: 600px) {
   .injection-section { padding: 36px 0; }
-  .injection-section-grid { grid-template-columns: minmax(0, 1fr) 100px; gap: 20px; }
-  .injection-section-figure { width: 100px; }
+  .injection-section-figure { max-width: 100%; }
   .injection-section .section-title { font-size: 1.3rem; }
-  .injection-section-description { font-size: .82rem; }
+  .injection-section-description { font-size: .88rem; }
 }
 @media (hover: none), (prefers-reduced-motion: reduce) {
   .peso-hover-hint { display: none; }
