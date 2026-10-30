@@ -1,0 +1,15 @@
+*.exe
+*.zip
+*.wav
+*.winmd
+towerrush.pdf
+*.py
+transcripcion_resultado/
+uploads/
+iniciar_servidor.bat
+.claude/
+caveman/
+.antigravityrules
+bot/
+QA_REPORT.md
+

@@ -1,3 +1,16 @@
+# Archivos pesados e instaladores locales
+*.exe
+*.zip
+*.wav
+*.winmd
+towerrush.pdf
+
+# Scripts de transcripción y datos de audio
+*.py
+transcripcion_resultado/
+uploads/
+iniciar_servidor.bat
+
 # Herramientas de desarrollo local (no van al repo)
 .claude/
 caveman/

@@ -1,23 +1,14 @@
-<!--
-PROPUESTAS DE NOMBRE DE MARCA
-1. AlgoVita — Fusión de "algo" (dolor en latín: algos) y "vita" (vida), comunica alivio que devuelve la vida.
-2. DolorFree Bolivia — Directo, claro, en el vocabulario del paciente. Fácil de recordar y buscar en WhatsApp.
-3. PaxMedica — "Pax" (paz en latín) + Médica. Doble significado: paz del cuerpo/dolor Y La Paz, Bolivia. Elegante y local.
-
-NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
--->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="PaxMedica — Bombas de Dolor para post-operatorio en La Paz, Bolivia. Recuperación más cómoda y sin dolor tras tu cirugía. Pedidos por WhatsApp." />
-  <meta property="og:title" content="PaxMedica — Bombas de Dolor Post-Operatorio | La Paz, Bolivia" />
-  <meta property="og:description" content="Recupera tu bienestar tras la cirugía con nuestra bomba de dolor. Entrega a domicilio en La Paz. Consulta gratis por WhatsApp." />
+  <meta name="description" content="Santa Cruz Medical — Bombas de Dolor para post-operatorio e inyecciones para bajar de peso en Santa Cruz, Bolivia. Recuperación cómoda y resultados visibles. Pedidos por WhatsApp." />
+  <meta property="og:title" content="Santa Cruz Medical — Bombas de Dolor & Tratamientos | Santa Cruz, Bolivia" />
+  <meta property="og:description" content="Manejo del dolor post-operatorio e inyecciones para bajar de peso. Entrega a domicilio en Santa Cruz. Consulta gratis por WhatsApp." />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="es_BO" />
-  <meta property="og:image" content="[URL_IMAGEN_PRODUCTO]" />
-  <title>PaxMedica — Bombas de Dolor Post-Operatorio | La Paz, Bolivia</title>
+  <title>Santa Cruz Medical — Bombas de Dolor & Tratamientos | Santa Cruz, Bolivia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -32,7 +23,7 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
   <link rel="stylesheet" href="css/layout/header.css" />
   <link rel="stylesheet" href="css/layout/footer.css" />
   <link rel="stylesheet" href="css/layout/whatsapp-float.css" />
-  <link rel="stylesheet" href="css/sections/hero.css" />
+  <link rel="stylesheet" href="css/sections/hero.css?v=bomba-ordenada-1" />
   <link rel="stylesheet" href="css/sections/que-es.css" />
   <link rel="stylesheet" href="css/sections/beneficios.css" />
   <link rel="stylesheet" href="css/sections/como-funciona.css" />
@@ -40,52 +31,36 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
   <link rel="stylesheet" href="css/sections/testimonios.css" />
   <link rel="stylesheet" href="css/sections/faq.css" />
   <link rel="stylesheet" href="css/sections/cta-final.css" />
+  <link rel="stylesheet" href="css/enhanced-animations.css?v=tapa-bomba-1" />
+  <link rel="stylesheet" href="css/sections/peso-background.css?v=separados-1" />
 </head>
 <body>
 
-  <!-- ==============================
-       FLOATING WHATSAPP BUTTON
-  ============================== -->
-  <a
-    id="float-wa"
-    href="https://wa.me/591XXXXXXXX?text=Hola%2C%20tengo%20una%20consulta%20sobre%20la%20bomba%20de%20dolor"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Consultar por WhatsApp"
-  >
+  <!-- FLOATING WHATSAPP -->
+  <a id="float-wa" href="https://wa.me/59173601545?text=Hola%2C%20tengo%20una%20consulta" target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp">
     <span class="tooltip">Consultar ahora</span>
-    <!-- WhatsApp SVG -->
     <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="#fff"/>
       <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="#25D366"/>
     </svg>
   </a>
 
-  <!-- ==============================
-       HEADER
-  ============================== -->
+  <!-- HEADER -->
   <header>
     <nav aria-label="Navegación principal">
-      <a href="#hero" class="logo" aria-label="PaxMedica - Inicio">
+      <a href="#hero" class="logo" aria-label="Santa Cruz Medical - Inicio">
         <div class="logo-icon" aria-hidden="true">
-          <!-- Medic cross SVG -->
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="8" y="2" width="6" height="18" rx="2" fill="white"/>
             <rect x="2" y="8" width="18" height="6" rx="2" fill="white"/>
           </svg>
         </div>
         <div>
-          <div class="logo-text">PaxMedica</div>
-          <div class="logo-sub">Bombas de Dolor · Bolivia</div>
+          <div class="logo-text">Santa Cruz Medical</div>
+          <div class="logo-sub">Salud · Santa Cruz, Bolivia</div>
         </div>
       </a>
-      <a
-        href="https://wa.me/591XXXXXXXX?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20las%20bombas%20de%20dolor%20para%20post-operatorio"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn-nav"
-        aria-label="Contactar por WhatsApp"
-      >
+      <a href="https://wa.me/59173601545?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s" target="_blank" rel="noopener noreferrer" class="btn-nav" aria-label="Contactar por WhatsApp">
         <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.3)"/>
           <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
@@ -95,37 +70,34 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
     </nav>
   </header>
 
-  <!-- ==============================
-       SECTION NAV BAR
-  ============================== -->
+  <!-- SECTION NAV -->
   <nav class="section-nav" aria-label="Ir a sección">
     <div class="section-nav-inner" id="sectionNavInner">
-      <a href="#que-es"        class="sec-nav-link" data-section="que-es">        <span class="sec-nav-dot"></span>¿Qué es?</a>
-      <a href="#beneficios"    class="sec-nav-link" data-section="beneficios">    <span class="sec-nav-dot"></span>Beneficios</a>
-      <a href="#como-funciona" class="sec-nav-link" data-section="como-funciona"> <span class="sec-nav-dot"></span>Cómo Funciona</a>
-      <a href="#testimonios"   class="sec-nav-link" data-section="testimonios">   <span class="sec-nav-dot"></span>Testimonios</a>
-      <a href="#como-pedir"    class="sec-nav-link" data-section="como-pedir">    <span class="sec-nav-dot"></span>Cómo Pedir</a>
-      <a href="#faq"           class="sec-nav-link" data-section="faq">           <span class="sec-nav-dot"></span>Preguntas</a>
-      <a href="#cta-final"     class="sec-nav-link" data-section="cta-final">     <span class="sec-nav-dot"></span>Pedir Ahora</a>
+      <a href="#que-es" class="sec-nav-link" data-section="que-es"><span class="sec-nav-dot"></span>¿Qué es?</a>
+      <a href="#servicios" class="sec-nav-link" data-section="servicios"><span class="sec-nav-dot"></span>Servicios</a>
+      <a href="#beneficios" class="sec-nav-link" data-section="beneficios"><span class="sec-nav-dot"></span>Beneficios</a>
+      <a href="#como-funciona" class="sec-nav-link" data-section="como-funciona"><span class="sec-nav-dot"></span>Cómo Funciona</a>
+      <a href="#peso" class="sec-nav-link" data-section="peso"><span class="sec-nav-dot"></span>Bajar de Peso</a>
+      <a href="#testimonios" class="sec-nav-link" data-section="testimonios"><span class="sec-nav-dot"></span>Testimonios</a>
+      <a href="#como-pedir" class="sec-nav-link" data-section="como-pedir"><span class="sec-nav-dot"></span>Cómo Pedir</a>
+      <a href="#faq" class="sec-nav-link" data-section="faq"><span class="sec-nav-dot"></span>Preguntas</a>
+      <a href="#cta-final" class="sec-nav-link" data-section="cta-final"><span class="sec-nav-dot"></span>Pedir Ahora</a>
     </div>
   </nav>
 
   <main>
 
-    <!-- ==============================
-         1. HERO SECTION
-    ============================== -->
+    <!-- HERO -->
     <section id="hero" aria-labelledby="hero-title">
       <div class="container">
         <div class="hero-grid">
-          <!-- Text -->
           <div class="fade-in">
-            <div class="hero-badge" aria-label="Disponible en La Paz, Bolivia">
+            <div class="hero-badge" aria-label="Disponible en Santa Cruz, Bolivia">
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
                 <circle cx="6" cy="6" r="5" fill="#E8C96D"/>
                 <path d="M3.5 6l1.8 1.8L8.5 4" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              Disponible en La Paz, Bolivia
+              Disponible en Santa Cruz, Bolivia
             </div>
 
             <h1 class="hero-title" id="hero-title">
@@ -135,29 +107,23 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             </h1>
 
             <p class="hero-sub">
-              Las bombas de dolor de PaxMedica liberan analgésico de forma controlada y continua, directamente en el sitio de la cirugía. Recuperación más cómoda, sin hospitalizaciones innecesarias.
+              Las bombas de dolor de Santa Cruz Medical liberan analgésico de forma controlada y continua, directamente en el sitio de la cirugía. Recuperación más cómoda, sin hospitalizaciones innecesarias.
             </p>
 
             <div class="hero-cta-group">
-              <a
-                href="https://wa.me/591XXXXXXXX?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s%20sobre%20las%20bombas%20de%20dolor%20para%20post-operatorio"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn btn-primary"
-                aria-label="Consultar por WhatsApp sobre la bomba de dolor"
-              >
+              <a href="https://wa.me/59173601545?text=Hola%2C%20me%20interesa%20saber%20m%C3%A1s" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                 <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.3)"/>
                   <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
                 </svg>
                 Consultar ahora
               </a>
-              <a href="#que-es" class="btn btn-outline" style="border-color:rgba(255,255,255,0.4);color:#fff;" aria-label="Ver más información sobre la bomba de dolor">
+              <a href="#que-es" class="btn btn-outline" style="border-color:rgba(255,255,255,0.4);color:#fff;">
                 Saber más
               </a>
             </div>
 
-            <div class="hero-trust" role="list" aria-label="Ventajas principales">
+            <div class="hero-trust" role="list">
               <div class="trust-item" role="listitem">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                   <path d="M2 7l3.5 3.5L12 3" stroke="#E8C96D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -176,42 +142,130 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                   <path d="M2 7l3.5 3.5L12 3" stroke="#E8C96D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-                La Paz, Bolivia
+                Santa Cruz, Bolivia
               </div>
             </div>
           </div>
 
-          <!-- Hero image -->
+          <!-- ANIMATED PUMP -->
           <div class="hero-image-wrap fade-in fade-in-delay-2">
-            <div class="hero-img-card">
-              <!-- FOTO NECESARIA: Foto del producto bomba de dolor sobre fondo blanco con empaque y jeringa, luz suave, fondo neutro o quirúrgico. Formato cuadrado o 4:5. -->
-              <div class="img-placeholder" style="height:320px;" aria-label="Bomba de Dolor PaxMedica — Producto principal">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-                  <rect x="6" y="18" width="36" height="20" rx="4" stroke="#2E6DA4" stroke-width="2"/>
-                  <rect x="14" y="12" width="8" height="8" rx="2" stroke="#2E6DA4" stroke-width="2"/>
-                  <circle cx="24" cy="28" r="4" fill="#5B9BD5" opacity="0.4"/>
-                  <line x1="28" y1="28" x2="40" y2="28" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round"/>
-                  <line x1="40" y1="24" x2="40" y2="32" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <span>Foto del producto</span>
-                <small style="color:#5B9BD5;font-weight:400;">Bomba de Dolor PaxMedica</small>
-              </div>
-              <div style="padding:14px 4px 4px;display:flex;align-items:center;gap:10px;">
-                <div style="flex:1;">
-                  <div style="font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:2px;">Producto destacado</div>
-                  <div style="font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:#fff;">Bomba de Dolor Post-Op</div>
-                </div>
-                <div style="background:rgba(201,168,76,0.15);border:1px solid rgba(201,168,76,0.35);padding:4px 10px;border-radius:50px;">
-                  <span style="font-size:0.72rem;font-weight:700;color:var(--gold-light);">DISPONIBLE</span>
-                </div>
-              </div>
+            <div class="pump-illustration">
+              <!-- Floating chips -->
+              <div class="pump-chip pump-chip-1"><span class="dot"></span>2 ml/h constantes</div>
+              <div class="pump-chip pump-chip-2"><span class="dot"></span>Sin pilas</div>
+              <div class="pump-chip pump-chip-3"><span class="dot"></span>2–4 días de alivio</div>
+
+              <svg class="pump-svg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Bomba elastomérica de analgesia">
+                <defs>
+                  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+                    <stop offset="0%" stop-color="#5B9BD5" stop-opacity="0.45"/>
+                    <stop offset="60%" stop-color="#5B9BD5" stop-opacity="0.1"/>
+                    <stop offset="100%" stop-color="#5B9BD5" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#A8C4DD" stop-opacity="0.7"/>
+                    <stop offset="15%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+                    <stop offset="50%" stop-color="#E8EFF5" stop-opacity="0.7"/>
+                    <stop offset="85%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+                    <stop offset="100%" stop-color="#A8C4DD" stop-opacity="0.7"/>
+                  </linearGradient>
+                  <linearGradient id="liquid" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#1A3D6B" stop-opacity="0.95"/>
+                    <stop offset="35%" stop-color="#5B9BD5" stop-opacity="0.95"/>
+                    <stop offset="65%" stop-color="#7FB6E0" stop-opacity="0.95"/>
+                    <stop offset="100%" stop-color="#1A3D6B" stop-opacity="0.95"/>
+                  </linearGradient>
+                  <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#A8B4C0"/>
+                    <stop offset="20%" stop-color="#F5F7FA"/>
+                    <stop offset="50%" stop-color="#FFFFFF"/>
+                    <stop offset="80%" stop-color="#E8EFF5"/>
+                    <stop offset="100%" stop-color="#A8B4C0"/>
+                  </linearGradient>
+                  <linearGradient id="strap" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#1A3D6B"/>
+                    <stop offset="50%" stop-color="#2E6DA4"/>
+                    <stop offset="100%" stop-color="#1A3D6B"/>
+                  </linearGradient>
+                  <clipPath id="bottle-clip">
+                    <rect x="180" y="100" width="120" height="200" rx="12"/>
+                  </clipPath>
+                </defs>
+
+                <!-- Glowing halo -->
+                <circle class="pump-halo" cx="250" cy="240" r="180" fill="url(#halo)"/>
+
+                <!-- Outer cylinder shell -->
+                <rect x="178" y="98" width="124" height="206" rx="14" fill="url(#bottle)" stroke="#A8C4DD" stroke-width="1.5"/>
+                <rect x="178" y="98" width="124" height="206" rx="14" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1"/>
+
+                <!-- Blue lid, centered on and attached to the cylinder -->
+                <g class="pump-cap">
+                  <rect x="171" y="82" width="138" height="30" rx="9" fill="url(#strap)" stroke="#7FA6C8" stroke-width="1.2"/>
+                  <rect x="181" y="87" width="105" height="4" rx="2" fill="#FFFFFF" opacity=".28"/>
+                  <path d="M177 103H303" stroke="#0F2540" stroke-width="2" opacity=".45"/>
+                  <path d="M232 61C232 72 234 80 240 84C246 80 248 72 248 61" stroke="#A8C4DD" stroke-width="2.5" fill="none"/>
+                  <circle cx="240" cy="59" r="3" fill="#A8C4DD"/>
+                </g>
+
+                <!-- Inside: balloon (the elastomeric reservoir) -->
+                <g clip-path="url(#bottle-clip)">
+                  <!-- Liquid that drops -->
+                  <g class="pump-liquid-mask">
+                    <ellipse class="pump-balloon" cx="240" cy="200" rx="52" ry="80" fill="url(#liquid)"/>
+                  </g>
+                  <!-- Inner shadow -->
+                  <ellipse cx="240" cy="200" rx="55" ry="85" fill="none" stroke="rgba(46,109,164,0.2)" stroke-width="1"/>
+                </g>
+
+                <!-- Scale ticks -->
+                <g font-family="Nunito, sans-serif" font-size="10" font-weight="700" fill="#1A3D6B">
+                  <line x1="288" y1="130" x2="298" y2="130" stroke="#1A3D6B" stroke-width="1.5"/>
+                  <text class="tick-ml tick-75" x="262" y="133">75</text>
+                  <line x1="288" y1="170" x2="298" y2="170" stroke="#1A3D6B" stroke-width="1.5"/>
+                  <text class="tick-ml tick-50" x="262" y="173">50</text>
+                  <line x1="288" y1="210" x2="298" y2="210" stroke="#1A3D6B" stroke-width="1.5"/>
+                  <text class="tick-ml tick-25" x="262" y="213">25</text>
+                  <line x1="288" y1="250" x2="298" y2="250" stroke="#1A3D6B" stroke-width="1.5"/>
+                  <text x="258" y="253" fill="#C9A84C" font-weight="800">0 ml</text>
+                </g>
+
+                <!-- Shimmer on bottle -->
+                <rect class="pump-shimmer" x="195" y="110" width="14" height="40" rx="6" fill="#fff" opacity="0.5"/>
+
+                <!-- Yellow indicator ring inside -->
+                <rect x="220" y="195" width="40" height="10" rx="2" fill="#E8C96D" opacity="0.85"/>
+
+                <!-- Bottom cap (white plastic cone) -->
+                <path d="M 178 304 L 200 360 Q 240 380, 280 360 L 302 304 Z" fill="url(#cap)" stroke="#A8C4DD" stroke-width="1.5"/>
+                <ellipse cx="240" cy="378" rx="42" ry="8" fill="#E8EFF5" stroke="#A8C4DD" stroke-width="1.5"/>
+                <ellipse cx="240" cy="376" rx="38" ry="5" fill="#fff"/>
+
+                <!-- Outlet -->
+                <rect x="232" y="380" width="16" height="14" fill="#C4D0DC"/>
+
+                <!-- Tube exiting -->
+                <path d="M 240 392 C 280 410, 340 410, 380 380 C 410 358, 420 320, 420 290"
+                      stroke="#E8EFF5" stroke-width="6" fill="none" stroke-linecap="round"/>
+                <path class="pump-tube-flow"
+                      d="M 240 392 C 280 410, 340 410, 380 380 C 410 358, 420 320, 420 290"
+                      stroke="#5B9BD5" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+                <!-- Drops traveling -->
+                <circle class="pump-drop" cx="0" cy="0" r="4" fill="#5B9BD5"/>
+                <circle class="pump-drop pump-drop-2" cx="0" cy="0" r="4" fill="#5B9BD5"/>
+                <circle class="pump-drop pump-drop-3" cx="0" cy="0" r="4" fill="#5B9BD5"/>
+
+                <!-- Connector at end -->
+                <rect x="412" y="280" width="22" height="14" rx="3" fill="#fff" stroke="#A8C4DD" stroke-width="1.5"/>
+                <rect x="430" y="284" width="6" height="6" rx="1" fill="#5B9BD5"/>
+              </svg>
             </div>
           </div>
         </div>
 
-        <!-- Scroll indicator -->
         <div class="text-center" style="position:relative;z-index:1;">
-          <a href="#que-es" class="scroll-indicator" aria-label="Ver más contenido">
+          <a href="#que-es" class="scroll-indicator">
             Descubre más
             <span class="scroll-chevron">
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
@@ -220,34 +274,112 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             </span>
           </a>
         </div>
-
       </div>
     </section>
 
+    <!-- ECG / HEARTBEAT STRIP -->
+    <section class="ecg-strip" aria-label="Compromiso médico">
+      <div class="container">
+        <div class="ecg-content">
+          <span class="ecg-text">Cuidamos cada <span class="accent">latido</span> de tu recuperación</span>
+          <svg class="ecg-line-svg" viewBox="0 0 280 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="ecg-path" d="M 0 25 L 60 25 L 75 25 L 85 10 L 95 40 L 105 5 L 115 45 L 125 25 L 160 25 L 175 25 L 185 12 L 195 38 L 205 8 L 215 42 L 225 25 L 280 25"/>
+          </svg>
+        </div>
+      </div>
+    </section>
 
-    <!-- ==============================
-         2. QUÉ ES LA BOMBA DE DOLOR
-    ============================== -->
+    <!-- SERVICIOS -->
+    <section id="servicios" aria-labelledby="servicios-title">
+      <div class="container">
+        <div class="text-center">
+          <p class="section-label fade-in">Nuestros tratamientos</p>
+          <h2 class="section-title fade-in" id="servicios-title">Soluciones médicas<br/>en Santa Cruz</h2>
+          <div class="divider fade-in"></div>
+          <p class="section-sub fade-in">Dos tratamientos médicos especializados con entrega y soporte por WhatsApp.</p>
+        </div>
+
+        <div class="services-grid">
+          <a href="#que-es" class="service-card fade-in fade-in-delay-1">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M16 4v24M8 6c0 4 8 6 8 6s8-2 8-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <ellipse cx="16" cy="22" rx="6" ry="4" stroke="#fff" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">Post-cirugía</span>
+              <span class="service-tag">2–4 días</span>
+            </div>
+            <h3>Bomba elastomérica de analgesia</h3>
+            <p>Control óptimo del dolor postoperatorio con liberación continua de analgésico local. Ideal para liposucción, abdominoplastia, mamoplastia y rinoplastia.</p>
+            <span class="service-cta">Conocer más
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a href="#peso" class="service-card gold fade-in fade-in-delay-2">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M8 6l16 16M10 4l4 4M22 28l-4-4M5 14l4 4M27 18l-4-4" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="6" cy="22" r="3" stroke="#fff" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="service-tags">
+              <span class="service-tag">GLP-1</span>
+              <span class="service-tag">Semanal</span>
+            </div>
+            <h3>Inyecciones para bajar de peso</h3>
+            <p>Tratamiento médico semanal con análogos de GLP-1 (Semaglutida, Liraglutida). Reduce el apetito, controla la glucosa y favorece pérdida de peso sostenida.</p>
+            <span class="service-cta">Ver tratamiento
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8m0 0L7 3m4 4L7 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTER STRIP -->
+    <section class="counter-strip" aria-label="Estadísticas">
+      <div class="container">
+        <div class="counter-grid">
+          <div class="counter-item fade-in">
+            <span class="counter-num" data-target="500">0</span>
+            <span class="counter-label">Pacientes atendidos</span>
+          </div>
+          <div class="counter-item fade-in fade-in-delay-1">
+            <span class="counter-num" data-target="98" data-suffix="%">0%</span>
+            <span class="counter-label">Satisfacción</span>
+          </div>
+          <div class="counter-item fade-in fade-in-delay-2">
+            <span class="counter-num" data-target="72" data-suffix="h">0h</span>
+            <span class="counter-label">De alivio continuo</span>
+          </div>
+          <div class="counter-item fade-in fade-in-delay-3">
+            <span class="counter-num" data-target="24" data-suffix="/7">0</span>
+            <span class="counter-label">Soporte WhatsApp</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUÉ ES -->
     <section id="que-es" class="section-pad" aria-labelledby="que-es-title">
       <div class="container">
         <div class="que-es-grid">
-          <!-- Image side -->
           <div class="que-es-img fade-in">
-            <!-- FOTO NECESARIA: Foto de primer plano de la bomba de dolor mostrando claramente el reservorio, el tubo flexible y el conector. Fondo blanco. Luz natural suave. -->
-            <div class="img-placeholder" style="height:380px;" aria-label="Detalle de la bomba de dolor — componentes">
+            <div class="img-placeholder" style="height:380px;" aria-label="Detalle de la bomba de dolor">
               <svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden="true">
                 <rect x="10" y="20" width="36" height="22" rx="6" fill="#EAF3FB" stroke="#5B9BD5" stroke-width="2"/>
                 <rect x="18" y="12" width="10" height="10" rx="3" fill="#EAF3FB" stroke="#5B9BD5" stroke-width="2"/>
                 <circle cx="28" cy="31" r="5" fill="#5B9BD5" opacity="0.5"/>
                 <path d="M33 31 Q43 31 43 24" stroke="#2E6DA4" stroke-width="2" fill="none" stroke-linecap="round"/>
-                <rect x="42" y="20" width="4" height="8" rx="2" fill="#2E6DA4"/>
               </svg>
               <span>Foto: detalle del producto</span>
               <small style="color:#5B9BD5;font-weight:400;max-width:180px;text-align:center;">Reservorio, tubo y conector de la bomba</small>
             </div>
           </div>
 
-          <!-- Text side -->
           <div class="fade-in fade-in-delay-1">
             <p class="section-label">Conoce el producto</p>
             <h2 class="section-title" id="que-es-title">¿Qué es la<br/>Bomba de Dolor?</h2>
@@ -293,7 +425,7 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
                   </svg>
                 </div>
                 <div class="feature-text">
-                  <strong>Recuperación desde casa en La Paz</strong>
+                  <strong>Recuperación desde casa en Santa Cruz</strong>
                   <p>No necesitas quedarte hospitalizado. Puedes recuperarte con comodidad en tu hogar.</p>
                 </div>
               </div>
@@ -303,20 +435,15 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
       </div>
     </section>
 
-
-    <!-- ==============================
-         3. BENEFICIOS
-    ============================== -->
+    <!-- BENEFICIOS -->
     <section id="beneficios" class="section-pad" aria-labelledby="beneficios-title">
       <div class="container text-center">
-        <p class="section-label fade-in">Por qué elegir PaxMedica</p>
+        <p class="section-label fade-in">Por qué elegir Santa Cruz Medical</p>
         <h2 class="section-title fade-in" id="beneficios-title">Beneficios de la<br/>Bomba de Dolor</h2>
         <div class="divider fade-in"></div>
         <p class="section-sub fade-in">Diseñada para brindarte la máxima comodidad en los momentos más importantes de tu recuperación.</p>
 
         <div class="cards-grid">
-
-          <!-- Card 1 -->
           <div class="benefit-card fade-in fade-in-delay-1">
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,7 +455,6 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             <p>Mantiene un nivel constante de analgésico en la zona operada, eliminando los picos de dolor entre dosis orales.</p>
           </div>
 
-          <!-- Card 2 -->
           <div class="benefit-card fade-in fade-in-delay-2">
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -341,7 +467,6 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             <p>Al controlar el dolor en la fuente, reduces la necesidad de pastillas que pueden causar náuseas y molestias gástricas.</p>
           </div>
 
-          <!-- Card 3 -->
           <div class="benefit-card fade-in fade-in-delay-3">
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -352,7 +477,6 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             <p>El manejo efectivo del dolor permite movilizarte antes, dormir mejor y retomar tu vida cotidiana en menos tiempo.</p>
           </div>
 
-          <!-- Card 4 -->
           <div class="benefit-card fade-in fade-in-delay-4">
             <div class="card-icon" aria-hidden="true">
               <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -363,18 +487,14 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
             <h3>Fácil uso domiciliario</h3>
             <p>No necesitas entrenamiento especial. Te explicamos paso a paso cómo usarla y estamos disponibles por WhatsApp ante cualquier duda.</p>
           </div>
-
         </div>
       </div>
     </section>
 
-
-    <!-- ==============================
-         4. CÓMO FUNCIONA POST-CIRUGÍA
-    ============================== -->
+    <!-- CÓMO FUNCIONA -->
     <section id="como-funciona" class="section-pad" aria-labelledby="como-funciona-title">
       <div class="container">
-        <div class="text-center" style="margin-bottom:0;">
+        <div class="text-center">
           <p class="section-label fade-in">Proceso paso a paso</p>
           <h2 class="section-title fade-in" id="como-funciona-title">Cómo funciona<br/>post-cirugía</h2>
           <div class="divider fade-in"></div>
@@ -383,7 +503,6 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
 
         <div class="steps-outer" style="margin-top:48px;">
           <div class="steps-container">
-            <!-- Step 1 -->
             <div class="step-row fade-in">
               <div class="step-num" aria-hidden="true">1</div>
               <div class="step-content">
@@ -392,16 +511,14 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
               </div>
             </div>
 
-            <!-- Step 2 -->
             <div class="step-row fade-in fade-in-delay-1">
               <div class="step-num" aria-hidden="true">2</div>
               <div class="step-content">
                 <h3>La bomba se conecta al catéter</h3>
-                <p>La bomba elastomérica PaxMedica — precargada con analgésico local — se conecta al catéter mediante un tubo flexible y seguro.</p>
+                <p>La bomba elastomérica de Santa Cruz Medical — precargada con analgésico local — se conecta al catéter mediante un tubo flexible y seguro.</p>
               </div>
             </div>
 
-            <!-- Step 3 -->
             <div class="step-row fade-in fade-in-delay-2">
               <div class="step-num" aria-hidden="true">3</div>
               <div class="step-content">
@@ -410,26 +527,20 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
               </div>
             </div>
 
-            <!-- Step 4 -->
             <div class="step-row fade-in fade-in-delay-3">
               <div class="step-num" aria-hidden="true">4</div>
               <div class="step-content">
                 <h3>Tú te recuperas en casa</h3>
-                <p>La bomba dura entre 24 y 72 horas según el modelo. Una vez vacía, la retiras fácilmente y la desechas. PaxMedica te explica todo por WhatsApp.</p>
+                <p>La bomba dura entre 24 y 72 horas según el modelo. Una vez vacía, la retiras fácilmente y la desechas. Te explicamos todo por WhatsApp.</p>
               </div>
             </div>
           </div>
 
-          <!-- Steps visual / illustration -->
           <div class="steps-visual fade-in fade-in-delay-2">
-            <!-- FOTO NECESARIA: Foto o ilustración mostrando a una paciente en casa, con ropa cómoda, sosteniendo la pequeña bomba. Expresión tranquila y de bienestar. Ambiente cálido y domiciliario. -->
-            <div class="img-placeholder" style="height:380px;max-width:360px;width:100%;" aria-label="Paciente en recuperación domiciliaria con bomba de dolor">
+            <div class="img-placeholder" style="height:380px;max-width:360px;width:100%;">
               <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
                 <circle cx="32" cy="18" r="10" stroke="#2E6DA4" stroke-width="2"/>
                 <path d="M14 56c0-9.941 8.059-18 18-18s18 8.059 18 18" stroke="#2E6DA4" stroke-width="2" stroke-linecap="round"/>
-                <rect x="38" y="32" width="14" height="10" rx="3" stroke="#C9A84C" stroke-width="1.8"/>
-                <path d="M45 32v-4" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"/>
-                <path d="M52 37h3" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"/>
               </svg>
               <span>Foto: paciente en casa</span>
               <small style="color:#5B9BD5;font-weight:400;max-width:180px;text-align:center;">Recuperación cómoda en domicilio</small>
@@ -439,77 +550,177 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
       </div>
     </section>
 
+    <!-- ============================
+         INYECCIONES PARA BAJAR DE PESO
+    ============================ -->
+    <section id="peso" aria-labelledby="peso-title">
+      <div class="container">
+        <div class="peso-grid">
+          <div class="peso-media-column">
+            <div class="peso-video-stack">
+              <div class="peso-background" aria-hidden="true">
+                <img class="peso-background-poster" src="assets/images/pagina-medica-poster-limpio.webp" alt="" width="1280" height="720" />
+                <video class="peso-background-animation" data-src="assets/images/pagina-medica-limpia.mp4" width="1280" height="720" muted loop playsinline preload="none"></video>
+              </div>
+              <div class="peso-play-hint">
+                <span class="peso-hover-hint">Pasa el cursor para ver el proceso</span>
+                <button type="button" class="peso-play-button" aria-pressed="false">Reproducir animación</button>
+              </div>
+            </div>
+          </div>
+          <!-- Text content -->
+          <div class="peso-content fade-in">
+            <p class="section-label">Tratamiento médico</p>
+            <h2 class="section-title" id="peso-title">Inyecciones para<br/><span style="color:var(--gold);">bajar de peso</span></h2>
+            <div class="divider" style="margin-left:0;"></div>
+            <p style="color:var(--text-muted);margin-bottom:20px;font-size:0.975rem;">
+              Ofrecemos tratamientos inyectables modernos basados en <strong style="color:var(--blue-dark);">análogos de GLP-1</strong> (Semaglutida y Liraglutida), que ayudan a controlar el apetito, regular la glucosa y favorecer una pérdida de peso saludable y sostenida.
+            </p>
+            <p style="color:var(--text-muted);margin-bottom:20px;font-size:0.975rem;">
+              Con seguimiento médico personalizado y entrega discreta a domicilio en Santa Cruz, Bolivia.
+            </p>
 
-    <!-- ==============================
-         5. TESTIMONIOS
-    ============================== -->
+            <ul class="peso-features">
+              <li>
+                <span class="check">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span><strong>Aplicación semanal</strong> — solo 1 inyección subcutánea por semana</span>
+              </li>
+              <li>
+                <span class="check">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span><strong>Reduce el apetito</strong> y la sensación de hambre durante el día</span>
+              </li>
+              <li>
+                <span class="check">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span><strong>Seguimiento médico</strong> incluido — control mensual del progreso</span>
+              </li>
+              <li>
+                <span class="check">
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6l3 3 5-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <span><strong>Resultados visibles</strong> desde la 4ta semana de tratamiento</span>
+              </li>
+            </ul>
+
+            <div class="peso-stats">
+              <div class="peso-stat">
+                <span class="peso-stat-num">5–15<small style="font-size:0.6em;"> kg</small></span>
+                <span class="peso-stat-label">en 3 meses</span>
+              </div>
+              <div class="peso-stat">
+                <span class="peso-stat-num">1<small style="font-size:0.6em;">/sem</small></span>
+                <span class="peso-stat-label">aplicación</span>
+              </div>
+              <div class="peso-stat">
+                <span class="peso-stat-num">100<small style="font-size:0.6em;">%</small></span>
+                <span class="peso-stat-label">supervisado</span>
+              </div>
+            </div>
+
+            <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;">
+              <a href="https://wa.me/59173601545?text=Hola%2C%20me%20interesa%20el%20tratamiento%20para%20bajar%20de%20peso" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.3)"/>
+                  <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52z" fill="white"/>
+                </svg>
+                Quiero más información
+              </a>
+            </div>
+
+            <p style="font-size:0.78rem;color:var(--text-light);margin-top:16px;font-style:italic;">
+              * Este tratamiento debe ser indicado y supervisado por un profesional médico. Los resultados varían según el paciente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aplicacion-tratamiento" class="injection-section" aria-labelledby="injection-section-title">
+      <div class="container">
+        <div class="injection-section-grid">
+          <div>
+            <p class="section-label">Tratamiento médico</p>
+            <h2 class="section-title" id="injection-section-title">Aplicación y seguimiento</h2>
+            <div class="divider" style="margin-left:0;"></div>
+            <p class="injection-section-description">Con indicación y supervisión de un profesional médico.</p>
+          </div>
+          <figure class="injection-section-figure">
+            <img src="assets/images/inyeccion-animada-detalle.svg" alt="Jeringa animada con movimiento del émbolo, descenso del líquido y una gota en la aguja" width="300" height="465" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
     <section id="testimonios" class="section-pad" aria-labelledby="testimonios-title">
       <div class="container text-center">
         <p class="section-label fade-in" style="color:var(--gold-light);">Lo que dicen nuestras pacientes</p>
-        <h2 class="section-title fade-in" id="testimonios-title">Testimonios de<br/>La Paz, Bolivia</h2>
+        <h2 class="section-title fade-in" id="testimonios-title">Testimonios de<br/>Santa Cruz, Bolivia</h2>
         <div class="divider fade-in"></div>
-        <p class="section-sub fade-in">Pacientes reales que vivieron una recuperación más tranquila con PaxMedica.</p>
+        <p class="section-sub fade-in">Pacientes reales que vivieron una recuperación más tranquila con Santa Cruz Medical.</p>
 
         <div class="testimonios-grid">
-
-          <!-- Testimonio 1 -->
           <article class="testimonial-card fade-in fade-in-delay-1">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <div class="stars">★★★★★</div>
             <p class="testimonial-text">
-              Me operé de liposucción en la Clínica del Sur y mi cirujano me recomendó la bomba de dolor. La diferencia fue increíble. El primer día casi no sentí nada, dormí bien y pude caminar al día siguiente. 100% recomendable.
+              Me operé de liposucción y mi cirujano me recomendó la bomba de dolor. La diferencia fue increíble. El primer día casi no sentí nada, dormí bien y pude caminar al día siguiente. 100% recomendable.
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar" aria-hidden="true">MR</div>
+              <div class="author-avatar">MR</div>
               <div>
                 <div class="author-name">María R.</div>
-                <div class="author-meta">Zona Sur, La Paz · Liposucción</div>
+                <div class="author-meta">Equipetrol, Santa Cruz · Liposucción</div>
               </div>
             </div>
           </article>
 
-          <!-- Testimonio 2 -->
           <article class="testimonial-card fade-in fade-in-delay-2">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <div class="stars">★★★★★</div>
             <p class="testimonial-text">
-              Después de mi abdominoplastia tenía mucho miedo al dolor. Con la bomba de PaxMedica los primeros dos días fueron manejables. Me enviaron instrucciones por WhatsApp y respondieron todas mis dudas al instante. Servicio excelente.
+              Después de mi abdominoplastia tenía mucho miedo al dolor. Con la bomba de Santa Cruz Medical los primeros dos días fueron manejables. Me enviaron instrucciones por WhatsApp y respondieron todas mis dudas al instante.
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar" aria-hidden="true">CP</div>
+              <div class="author-avatar">CP</div>
               <div>
                 <div class="author-name">Carla P.</div>
-                <div class="author-meta">Miraflores, La Paz · Abdominoplastia</div>
+                <div class="author-meta">Las Palmas, Santa Cruz · Abdominoplastia</div>
               </div>
             </div>
           </article>
 
-          <!-- Testimonio 3 -->
           <article class="testimonial-card fade-in fade-in-delay-3">
-            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <div class="stars">★★★★★</div>
             <p class="testimonial-text">
-              Me operé el lunes y el miércoles ya estaba caminando con normalidad. La bomba fue súper fácil de usar, la cargué en una pequeña bolsita y ni se notaba. La entrega llegó a tiempo y el precio fue muy accesible. ¡Gracias PaxMedica!
+              Empecé el tratamiento de inyecciones para bajar de peso hace 3 meses y bajé 9 kilos sin pasar hambre. El control médico semanal me dio mucha confianza. ¡Gracias Santa Cruz Medical!
             </p>
             <div class="testimonial-author">
-              <div class="author-avatar" aria-hidden="true">VT</div>
+              <div class="author-avatar">VT</div>
               <div>
                 <div class="author-name">Verónica T.</div>
-                <div class="author-meta">Achumani, La Paz · Rinoplastia</div>
+                <div class="author-meta">Urubó, Santa Cruz · Tratamiento de peso</div>
               </div>
             </div>
           </article>
-
         </div>
 
         <div class="testimonios-cta fade-in">
-          <a
-            href="https://wa.me/591XXXXXXXX?text=Hola%2C%20quiero%20consultar%20sobre%20la%20bomba%20de%20dolor"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-primary"
-            aria-label="Consultar por WhatsApp"
-          >
+          <a href="https://wa.me/59173601545?text=Hola%2C%20quiero%20consultar" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
             <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.3)"/>
-              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
+              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49z" fill="white"/>
             </svg>
             Quiero consultar por WhatsApp
           </a>
@@ -517,74 +728,57 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
       </div>
     </section>
 
-
-    <!-- ==============================
-         6. CÓMO PEDIR
-    ============================== -->
+    <!-- CÓMO PEDIR -->
     <section id="como-pedir" class="section-pad" aria-labelledby="como-pedir-title">
       <div class="container text-center">
         <p class="section-label fade-in">Simple y rápido</p>
-        <h2 class="section-title fade-in" id="como-pedir-title">Cómo pedir tu<br/>Bomba de Dolor</h2>
+        <h2 class="section-title fade-in" id="como-pedir-title">Cómo pedir<br/>tu tratamiento</h2>
         <div class="divider fade-in"></div>
         <p class="section-sub fade-in">Tres pasos sencillos. Sin formularios complicados. Todo por WhatsApp.</p>
 
         <div class="pedir-grid">
-
-          <!-- Paso 1 -->
           <div class="pedir-card fade-in fade-in-delay-1">
-            <div class="pedir-icon" aria-hidden="true">
-              <!-- Chat/WhatsApp icon -->
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="pedir-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <path d="M16 4C9.373 4 4 9.373 4 16c0 2.385.668 4.61 1.822 6.504L4 28l5.722-1.499A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 4 16 4z" fill="white" fill-opacity="0.25"/>
                 <path d="M10.5 13.5h11M10.5 17.5h7" stroke="white" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </div>
             <div class="pedir-step-num">Paso 01</div>
             <h3>Escríbenos por WhatsApp</h3>
-            <p>Envíanos un mensaje indicando que necesitas una bomba de dolor y el tipo de cirugía que tendrás.</p>
+            <p>Envíanos un mensaje indicando qué tratamiento te interesa: bomba de dolor o inyecciones para bajar de peso.</p>
           </div>
 
-          <!-- Paso 2 -->
           <div class="pedir-card fade-in fade-in-delay-2">
-            <div class="pedir-icon" aria-hidden="true">
-              <!-- Document/prescription icon -->
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="pedir-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <rect x="7" y="4" width="18" height="24" rx="3" stroke="white" stroke-width="2"/>
                 <path d="M11 10h10M11 14h10M11 18h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </div>
             <div class="pedir-step-num">Paso 02</div>
             <h3>Confirmamos tu pedido</h3>
-            <p>Te indicamos el modelo adecuado, el precio y coordinamos la entrega según la fecha de tu cirugía en La Paz.</p>
+            <p>Te indicamos el modelo o tratamiento adecuado, el precio y coordinamos la entrega en Santa Cruz.</p>
           </div>
 
-          <!-- Paso 3 -->
           <div class="pedir-card fade-in fade-in-delay-3">
-            <div class="pedir-icon" aria-hidden="true">
-              <!-- Delivery / home icon -->
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="pedir-icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
                 <path d="M6 14L16 6l10 8v12a2 2 0 01-2 2H8a2 2 0 01-2-2V14z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
                 <path d="M12 28V20h8v8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
             <div class="pedir-step-num">Paso 03</div>
-            <h3>Recíbela en tu domicilio</h3>
-            <p>Entregamos directamente en tu dirección en La Paz. Incluimos instrucciones de uso y soporte por WhatsApp.</p>
+            <h3>Recíbelo en tu domicilio</h3>
+            <p>Entregamos directamente en tu dirección en Santa Cruz. Incluimos instrucciones y soporte por WhatsApp.</p>
           </div>
-
         </div>
 
         <div class="pedir-cta fade-in">
-          <a
-            href="https://wa.me/591XXXXXXXX?text=Hola%2C%20quisiera%20hacer%20un%20pedido%20de%20bomba%20de%20dolor"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-secondary"
-            aria-label="Hacer pedido por WhatsApp"
-          >
+          <a href="https://wa.me/59173601545?text=Hola%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
             <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.2)"/>
-              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
+              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07z" fill="white"/>
             </svg>
             Hacer mi pedido ahora
           </a>
@@ -592,191 +786,103 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
       </div>
     </section>
 
-
-    <!-- ==============================
-         7. PREGUNTAS FRECUENTES
-    ============================== -->
+    <!-- FAQ -->
     <section id="faq" class="section-pad" aria-labelledby="faq-title">
       <div class="container">
         <div class="text-center">
           <p class="section-label fade-in">Resolvemos tus dudas</p>
           <h2 class="section-title fade-in" id="faq-title">Preguntas<br/>Frecuentes</h2>
           <div class="divider fade-in"></div>
-          <p class="section-sub fade-in">¿Tienes una pregunta que no está aquí? Escríbenos por WhatsApp y te respondemos en minutos.</p>
+          <p class="section-sub fade-in">¿Tienes una pregunta que no está aquí? Escríbenos por WhatsApp.</p>
         </div>
 
         <div class="faq-list fade-in" role="list">
-
-          <!-- FAQ 1 -->
           <div class="faq-item" role="listitem">
-            <button
-              class="faq-btn"
-              aria-expanded="false"
-              aria-controls="faq-body-1"
-              id="faq-btn-1"
-            >
+            <button class="faq-btn" aria-expanded="false" aria-controls="faq-body-1" id="faq-btn-1">
               <span class="faq-question">¿Qué es exactamente una bomba de dolor?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+              <span class="faq-chevron"><svg viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
             <div class="faq-body" id="faq-body-1" role="region" aria-labelledby="faq-btn-1">
-              <p>
-                Es un dispositivo médico pequeño y desechable, también conocido como <strong>bomba elastomérica</strong> o PCA (Patient-Controlled Analgesia) de flujo continuo. Contiene un reservorio flexible preñado de analgésico local (generalmente ropivacaína o bupivacaína). La presión del globo interno empuja el medicamento a través de un tubo fino hasta el catéter colocado por el cirujano en la zona operada. No requiere pilas, electricidad ni ninguna acción del paciente: funciona sola.
-              </p>
+              <p>Es un dispositivo médico pequeño y desechable, también conocido como <strong>bomba elastomérica</strong>. Contiene un reservorio flexible con analgésico local que se libera de forma constante a través de un catéter colocado en la zona operada. No requiere pilas ni electricidad.</p>
             </div>
           </div>
 
-          <!-- FAQ 2 -->
           <div class="faq-item" role="listitem">
-            <button
-              class="faq-btn"
-              aria-expanded="false"
-              aria-controls="faq-body-2"
-              id="faq-btn-2"
-            >
-              <span class="faq-question">¿Es segura para uso domiciliario?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+            <button class="faq-btn" aria-expanded="false" aria-controls="faq-body-2" id="faq-btn-2">
+              <span class="faq-question">¿Las inyecciones para bajar de peso son seguras?</span>
+              <span class="faq-chevron"><svg viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
             <div class="faq-body" id="faq-body-2" role="region" aria-labelledby="faq-btn-2">
-              <p>
-                Sí. Las bombas de dolor elastoméricas están diseñadas específicamente para el uso en el domicilio del paciente bajo la indicación de un médico o cirujano. Son dispositivos de un solo uso, estériles y con flujo predefinido, lo que elimina el riesgo de sobredosis. Sin embargo, <strong>siempre deben usarse bajo la indicación o supervisión de un profesional de la salud</strong>. PaxMedica te entrega instrucciones completas y está disponible para resolver cualquier duda por WhatsApp durante todo el período de uso.
-              </p>
+              <p>Sí, son medicamentos aprobados internacionalmente (Semaglutida, Liraglutida) cuando se aplican bajo supervisión médica. Hacemos una evaluación previa, control mensual del progreso y ajuste de dosis personalizado. <strong>No se administran sin valoración médica</strong>.</p>
             </div>
           </div>
 
-          <!-- FAQ 3 -->
           <div class="faq-item" role="listitem">
-            <button
-              class="faq-btn"
-              aria-expanded="false"
-              aria-controls="faq-body-3"
-              id="faq-btn-3"
-            >
-              <span class="faq-question">¿Cuánto tiempo se usa después de la cirugía?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+            <button class="faq-btn" aria-expanded="false" aria-controls="faq-body-3" id="faq-btn-3">
+              <span class="faq-question">¿Cuánto tiempo se usa la bomba de dolor?</span>
+              <span class="faq-chevron"><svg viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
             <div class="faq-body" id="faq-body-3" role="region" aria-labelledby="faq-btn-3">
-              <p>
-                La duración depende del modelo y del flujo configurado. Generalmente oscila entre <strong>24 y 72 horas</strong> posteriores a la cirugía, que coincide con el período de mayor dolor post-operatorio. Tu cirujano o el equipo médico que te indicó el dispositivo te indicará exactamente cuántas horas debes usarla. Una vez que el globo elastomérico se vacía por completo, simplemente retiras el catéter (según te indicó tu médico) y desechas la bomba.
-              </p>
+              <p>Depende del modelo y del flujo configurado. Generalmente entre <strong>24 y 72 horas</strong> posteriores a la cirugía, que coincide con el período de mayor dolor post-operatorio.</p>
             </div>
           </div>
 
-          <!-- FAQ 4 -->
           <div class="faq-item" role="listitem">
-            <button
-              class="faq-btn"
-              aria-expanded="false"
-              aria-controls="faq-body-4"
-              id="faq-btn-4"
-            >
-              <span class="faq-question">¿Cómo llega a mi domicilio en La Paz?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+            <button class="faq-btn" aria-expanded="false" aria-controls="faq-body-4" id="faq-btn-4">
+              <span class="faq-question">¿Cómo llega a mi domicilio en Santa Cruz?</span>
+              <span class="faq-chevron"><svg viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
             <div class="faq-body" id="faq-body-4" role="region" aria-labelledby="faq-btn-4">
-              <p>
-                Coordinamos la entrega directamente por WhatsApp. Una vez que confirmas tu pedido y la fecha de tu cirugía, acordamos el horario y la dirección de entrega en La Paz. Hacemos entregas a domicilio en la mayoría de los barrios de la ciudad (Zona Sur, Miraflores, San Miguel, Achumani, Sopocachi, Calacoto y más). <strong>Te recomendamos hacer el pedido con al menos 48 horas de anticipación</strong> para garantizar disponibilidad.
-              </p>
+              <p>Coordinamos la entrega por WhatsApp. Hacemos entregas en la mayoría de los barrios de Santa Cruz (Equipetrol, Las Palmas, Urubó, Plan 3000, 2do, 3er y 4to anillo y más). <strong>Recomendamos pedir con 48 horas de anticipación</strong>.</p>
             </div>
           </div>
 
-          <!-- FAQ 5 -->
           <div class="faq-item" role="listitem">
-            <button
-              class="faq-btn"
-              aria-expanded="false"
-              aria-controls="faq-body-5"
-              id="faq-btn-5"
-            >
-              <span class="faq-question">¿Qué pasa si tengo dudas sobre cómo usarla?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+            <button class="faq-btn" aria-expanded="false" aria-controls="faq-body-5" id="faq-btn-5">
+              <span class="faq-question">¿Qué pasa si tengo dudas durante el tratamiento?</span>
+              <span class="faq-chevron"><svg viewBox="0 0 16 16" fill="none"><path d="M3 6l5 5 5-5" stroke="#2E6DA4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
             <div class="faq-body" id="faq-body-5" role="region" aria-labelledby="faq-btn-5">
-              <p>
-                Con cada bomba entregamos instrucciones escritas claras y sencillas. Además, el equipo de PaxMedica está disponible por WhatsApp durante el período de uso de la bomba para resolver cualquier duda en tiempo real. Si surge alguna <strong>situación médica de urgencia</strong> (fiebre alta, sangrado, dificultad para respirar u otros síntomas inusuales), siempre debes contactar a tu médico cirujano o acudir a urgencias de inmediato.
-              </p>
+              <p>El equipo de Santa Cruz Medical está disponible por WhatsApp durante todo el período del tratamiento para resolver cualquier duda en tiempo real. Para urgencias médicas, siempre debes contactar a tu médico cirujano o acudir a urgencias.</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-
-    <!-- ==============================
-         8. CTA FINAL
-    ============================== -->
+    <!-- CTA FINAL -->
     <section id="cta-final" class="section-pad" aria-labelledby="cta-final-title">
       <div class="container">
         <div class="cta-card fade-in">
-          <!-- FOTO NECESARIA: Imagen de fondo sutil (opcional) — por ejemplo un degradado suave con una gota de medicamento o producto en esquina derecha -->
           <p class="section-label">Da el primer paso</p>
-          <h2 class="section-title" id="cta-final-title" style="max-width:480px;margin:0 auto 16px;">
-            Tu recuperación merece la mayor comodidad
+          <h2 class="section-title" id="cta-final-title" style="max-width:520px;margin:0 auto 16px;">
+            Tu salud y bienestar merecen lo mejor
           </h2>
           <p class="section-sub" style="margin-bottom:32px;">
-            Escríbenos ahora por WhatsApp. Estamos en La Paz, Bolivia, y respondemos en minutos. Sin compromiso.
+            Escríbenos ahora por WhatsApp. Estamos en Santa Cruz, Bolivia, y respondemos en minutos. Sin compromiso.
           </p>
-          <a
-            href="https://wa.me/591XXXXXXXX?text=Hola%2C%20estoy%20lista%2Flisto%20para%20pedir%20mi%20bomba%20de%20dolor"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-primary"
-            style="font-size:1.05rem;padding:16px 36px;"
-            aria-label="Pedir bomba de dolor por WhatsApp"
-          >
+          <a href="https://wa.me/59173601545?text=Hola%2C%20estoy%20listo%2Flista%20para%20mi%20tratamiento" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:1.05rem;padding:16px 36px;">
             <svg class="wa-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.3)"/>
-              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
+              <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16z" fill="white"/>
             </svg>
             Pedir ahora por WhatsApp
           </a>
-          <div class="cta-guarantee" role="list" aria-label="Garantías del servicio">
+          <div class="cta-guarantee" role="list">
             <div class="guarantee-item" role="listitem">
-              <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <svg viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/><path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Respuesta rápida
             </div>
             <div class="guarantee-item" role="listitem">
-              <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <svg viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/><path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Entrega a domicilio
             </div>
             <div class="guarantee-item" role="listitem">
-              <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <svg viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/><path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Instrucciones incluidas
             </div>
             <div class="guarantee-item" role="listitem">
-              <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/>
-                <path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
+              <svg viewBox="0 0 18 18" fill="none"><circle cx="9" cy="9" r="7.5" stroke="#2E6DA4" stroke-width="1.5"/><path d="M5.5 9l2.5 2.5L13 6" stroke="#2E6DA4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
               Soporte durante uso
             </div>
           </div>
@@ -786,96 +892,117 @@ NOMBRE ELEGIDO PARA ESTE DISEÑO: PaxMedica
 
   </main>
 
-
-  <!-- ==============================
-       9. FOOTER
-  ============================== -->
+  <!-- FOOTER -->
   <footer role="contentinfo">
     <div class="container">
       <div class="footer-grid">
-
-        <!-- Brand -->
         <div>
           <div class="footer-logo logo">
-            <div class="logo-icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="logo-icon">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
                 <rect x="8" y="2" width="6" height="18" rx="2" fill="white"/>
                 <rect x="2" y="8" width="18" height="6" rx="2" fill="white"/>
               </svg>
             </div>
             <div>
-              <div class="logo-text">PaxMedica</div>
-              <div class="logo-sub">Bombas de Dolor · Bolivia</div>
+              <div class="logo-text">Santa Cruz Medical</div>
+              <div class="logo-sub">Salud · Santa Cruz, Bolivia</div>
             </div>
           </div>
           <p class="footer-desc" style="margin-top:14px;">
-            Soluciones de manejo del dolor post-operatorio para pacientes de cirugía estética y plástica en La Paz, Bolivia. Comprometidos con tu comodidad y recuperación.
+            Soluciones de manejo del dolor post-operatorio y tratamientos para bajar de peso en Santa Cruz, Bolivia. Comprometidos con tu comodidad y resultados.
           </p>
         </div>
 
-        <!-- Links -->
         <div>
           <p class="footer-heading">Secciones</p>
-          <ul class="footer-links" role="list">
+          <ul class="footer-links">
             <li><a href="#que-es">¿Qué es la Bomba de Dolor?</a></li>
             <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#peso">Bajar de Peso</a></li>
             <li><a href="#como-funciona">Cómo Funciona</a></li>
             <li><a href="#testimonios">Testimonios</a></li>
-            <li><a href="#como-pedir">Cómo Pedir</a></li>
             <li><a href="#faq">Preguntas Frecuentes</a></li>
           </ul>
         </div>
 
-        <!-- Contact -->
         <div>
           <p class="footer-heading">Contacto</p>
           <div class="footer-contact-item">
-            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M8 1.5C5.515 1.5 3.5 3.515 3.5 6c0 4 4.5 8.5 4.5 8.5s4.5-4.5 4.5-8.5c0-2.485-2.015-4.5-4.5-4.5z" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
-              <circle cx="8" cy="6" r="1.5" fill="rgba(255,255,255,0.5)"/>
-            </svg>
-            <span>La Paz, Bolivia</span>
+            <svg viewBox="0 0 16 16" fill="none"><path d="M8 1.5C5.515 1.5 3.5 3.515 3.5 6c0 4 4.5 8.5 4.5 8.5s4.5-4.5 4.5-8.5c0-2.485-2.015-4.5-4.5-4.5z" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/><circle cx="8" cy="6" r="1.5" fill="rgba(255,255,255,0.5)"/></svg>
+            <span>Santa Cruz de la Sierra, Bolivia</span>
           </div>
           <div class="footer-contact-item">
-            <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M8 1.5C4.686 1.5 2 4.186 2 7.5c0 1.193.334 2.305.911 3.252L2 14l3.411-.9A6 6 0 008 13.5c3.314 0 6-2.686 6-6S11.314 1.5 8 1.5z" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/>
-            </svg>
-            <a href="https://wa.me/591XXXXXXXX?text=Hola%2C%20tengo%20una%20consulta%20sobre%20la%20bomba%20de%20dolor" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.6);" aria-label="WhatsApp de PaxMedica">+591 XXXXXXXX</a>
-          </div>
-          <div style="margin-top:20px;">
-            <a
-              href="https://wa.me/591XXXXXXXX?text=Hola%2C%20tengo%20una%20consulta%20sobre%20la%20bomba%20de%20dolor"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn"
-              style="background:linear-gradient(135deg,#25D366,#1DA851);color:#fff;padding:10px 20px;font-size:0.85rem;box-shadow:0 4px 14px rgba(37,211,102,0.25);"
-              aria-label="Abrir WhatsApp de PaxMedica"
-            >
-              <svg class="wa-icon" style="width:18px;height:18px;" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.668 4.61 1.822 6.504L4 29l7.722-1.799A11.94 11.94 0 0016 28c6.627 0 12-5.373 12-12S22.627 3 16 3z" fill="rgba(255,255,255,0.2)"/>
-                <path d="M21.8 18.8c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.41-1.49-.89-.8-1.49-1.78-1.67-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.01-1.04 2.47s1.07 2.86 1.22 3.06c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z" fill="white"/>
-              </svg>
-              Escribir ahora
-            </a>
+            <svg viewBox="0 0 16 16" fill="none"><path d="M8 1.5C4.686 1.5 2 4.186 2 7.5c0 1.193.334 2.305.911 3.252L2 14l3.411-.9A6 6 0 008 13.5c3.314 0 6-2.686 6-6S11.314 1.5 8 1.5z" stroke="rgba(255,255,255,0.5)" stroke-width="1.3"/></svg>
+            <a href="https://wa.me/59173601545" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.6);">+591 73601545</a>
           </div>
         </div>
       </div>
-
-      <hr class="footer-divider" />
-
       <div class="footer-bottom">
-        <p class="footer-disclaimer" role="note">
-          <strong style="color:rgba(255,255,255,0.5);">Aviso Médico:</strong> Este producto es un dispositivo médico para uso post-quirúrgico. Su uso debe ser supervisado o indicado por un profesional de la salud. PaxMedica — Bombas de Dolor Bolivia no reemplaza la consulta médica. Ante cualquier complicación, consulte a su médico de inmediato.
-        </p>
-        <p class="footer-copy">&copy; 2026 PaxMedica Bolivia. Todos los derechos reservados.</p>
+        <p>© 2026 Santa Cruz Medical · Todos los derechos reservados.</p>
       </div>
     </div>
   </footer>
 
+  <!-- Scripts -->
   <script src="js/animations.js"></script>
   <script src="js/faq.js"></script>
   <script src="js/nav.js"></script>
   <script src="js/scroll.js"></script>
+  <script src="js/peso-background.js?v=primer-plano-1"></script>
+
+  <!-- Counter animation -->
+  <script>
+  (function() {
+    const counters = document.querySelectorAll('.counter-num');
+    const animate = (el) => {
+      const target = parseInt(el.dataset.target, 10);
+      const suffix = el.dataset.suffix || '';
+      const duration = 1800;
+      const start = performance.now();
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / duration);
+        const eased = 1 - Math.pow(1 - t, 3);
+        const value = Math.floor(target * eased);
+        el.textContent = value + suffix;
+        if (t < 1) requestAnimationFrame(tick);
+        else el.textContent = target + suffix;
+      };
+      requestAnimationFrame(tick);
+    };
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          animate(e.target);
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(c => obs.observe(c));
+  })();
+  </script>
+
+  <!-- Generic fade-in observer (fallback if animations.js doesn't handle it) -->
+  <script>
+  (function() {
+    const els = document.querySelectorAll('.fade-in');
+    if (!('IntersectionObserver' in window)) {
+      els.forEach(el => el.classList.add('is-visible'));
+      return;
+    }
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    els.forEach(el => obs.observe(el));
+  })();
+  </script>
+
+
 
 </body>
 </html>
